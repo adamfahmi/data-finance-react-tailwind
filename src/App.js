@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Wawaw from "./components/Wawaw";
+import Analytics from "./components/Analytics";
+import Newsletter from "./components/Newsletter";
+import Cards from "./components/Cards";
+import Likes from "./components/Likes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Wawaw />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
+      <Likes />
     </div>
   );
 }
 
 export default App;
+/*1:07:14 [footer]// code cpmmerce// */
